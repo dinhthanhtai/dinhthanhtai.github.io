@@ -1,7 +1,35 @@
 *{margin: 0; padding: 0;}
 
+.small_wrap_1st, .small_wrap_2nd {
+    margin-top: 85px;
+}
+
+.block {
+    color: white;
+    width: 410px;
+    height: 145px;
+    background: #1D1D24;
+    margin-bottom: 30px;
+    padding: 15px 25px;
+    border-radius: 4px;
+    box-shadow: -1rem 0 3rem #000;
+}
+
+.big_wrap {
+    position: absolute;
+    z-index: 1;
+    width: 1140px;
+    margin-left: 370px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 p {
     font-size: 14px;
+}
+
+.block p {
+    margin-top: 16px;
 }
 
 h3 {
@@ -146,6 +174,16 @@ h2 {
     color: white;
 }
 
+.small_wrap_1st h2, .small_wrap_2nd h2 {
+    font-size: 28px;
+    margin-bottom: 59px;
+}
+
+.small_wrap_1st .block h2,.small_wrap_2nd .block h2  {
+    font-size: 20px;
+    margin-bottom: 13px;
+}
+
 .content_1st .frame_sm h2{
     font-size: 28px;
     margin: 0px 0 18px;
@@ -230,7 +268,7 @@ img {width: 85%;height: 85%;margin: 28px;}
     z-index: 1;
 }
 
-header {
+header, .content_2nd {
     height: 837px;
     width: 100%;
     background-image: url(http://cvresumetemplate.com/maha-personal-cv-resume-html-template/assets/images/home-bg-img.jpg);
